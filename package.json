@@ -1,0 +1,18 @@
+{
+  "name": "twitter-unretweet-bot",
+  "version": "1.0.0",
+  "description": "Auto un-retweet bot untuk Twitter/X menggunakan cookies",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dry-run": "DRY_RUN=true node bot.js"
+  },
+  "dependencies": {
+    "agent-twitter-client": "^0.0.18",
+    "dotenv": "^16.4.5",
+    "tough-cookie": "^4.1.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
